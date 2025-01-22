@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --green-color-logo: #17ffc2;
+  --navbar-color: #020617;
+  --tw-text-opacity: 1;
+  --tw-border-opacity: 1;
+}
 
 * {
-  font-family: "Luckiest Guy", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -9,13 +16,20 @@
 
 body,
 html {
-  background-color: #000;
+  background-color: #111827;
   color: #fff;
 }
 
+ol, ul, li {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 a,
-a:hover,
-a:visited {
+a:link,
+a:visited,
+a:hover {
   color: unset;
   text-decoration: none;
 }
