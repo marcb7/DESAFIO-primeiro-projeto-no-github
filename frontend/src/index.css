@@ -16,7 +16,9 @@
 
 body,
 html {
-  background-color: #111827;
+  background-image: url("assets/img/playstation.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
@@ -33,3 +35,6 @@ a:hover {
   color: unset;
   text-decoration: none;
 }
+
+
+/*  background-color: #111827;  */

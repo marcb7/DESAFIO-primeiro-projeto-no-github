@@ -1,12 +1,12 @@
 
-import './styles.css'
+import './styles.css';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <header>
             <nav className="container">
                 <div className="games-nav-content">
-                    <a href="/home">
+                    <a href="/">
                         <div className="games-logo-container">
                             <h1>Games</h1>
                             <h1 className="text-2025"> 2025</h1>
@@ -15,12 +15,12 @@ function Navbar() {
                     <div>
                         <ul className="games-menu-container">
                             <li>
-                                <a href="/home" className="active">
+                                <a href="/" className="active">
                                     HOME
                                 </a>
                             </li>
                             <li>
-                                <a href="/sobre">
+                                <a href="/about">
                                     SOBRE
                                 </a>
                             </li>
